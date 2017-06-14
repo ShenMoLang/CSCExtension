@@ -15,6 +15,22 @@
 		590C18661EEFD15B00320C7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590C18641EEFD15B00320C7E /* LaunchScreen.storyboard */; };
 		590C18711EEFD15B00320C7E /* MyTestSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 590C18701EEFD15B00320C7E /* MyTestSDKTests.m */; };
 		590C187C1EEFD15B00320C7E /* MyTestSDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 590C187B1EEFD15B00320C7E /* MyTestSDKUITests.m */; };
+		590C19301EF0D65800320C7E /* CSCAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 590C19031EF0D65800320C7E /* CSCAppInfo.m */; };
+		590C19311EF0D65800320C7E /* CSCCardInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 590C19061EF0D65800320C7E /* CSCCardInfo.m */; };
+		590C19321EF0D65800320C7E /* CSCCardListInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 590C19091EF0D65800320C7E /* CSCCardListInfo.m */; };
+		590C19331EF0D65800320C7E /* CSCDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 590C190C1EF0D65800320C7E /* CSCDeviceInfo.m */; };
+		590C19341EF0D65800320C7E /* CSCIdInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 590C190F1EF0D65800320C7E /* CSCIdInfo.m */; };
+		590C19351EF0D65800320C7E /* CSCComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 590C19121EF0D65800320C7E /* CSCComponent.m */; };
+		590C19361EF0D65800320C7E /* CSCOrderInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 590C19141EF0D65800320C7E /* CSCOrderInfo.m */; };
+		590C19371EF0D65800320C7E /* CSCUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 590C19171EF0D65800320C7E /* CSCUserInfo.m */; };
+		590C19381EF0D65800320C7E /* CSCBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 590C191B1EF0D65800320C7E /* CSCBaseService.m */; };
+		590C19391EF0D65800320C7E /* CSCHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 590C191D1EF0D65800320C7E /* CSCHttpManager.m */; };
+		590C193A1EF0D65800320C7E /* CSCCCKSControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 590C19201EF0D65800320C7E /* CSCCCKSControls.m */; };
+		590C193B1EF0D65800320C7E /* CSCCerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 590C19231EF0D65800320C7E /* CSCCerService.m */; };
+		590C193C1EF0D65800320C7E /* CSCMQTTService.m in Sources */ = {isa = PBXBuildFile; fileRef = 590C19261EF0D65800320C7E /* CSCMQTTService.m */; };
+		590C193D1EF0D65800320C7E /* CSCSDKFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 590C19291EF0D65800320C7E /* CSCSDKFactory.m */; };
+		590C193E1EF0D65800320C7E /* CSCUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 590C192C1EF0D65800320C7E /* CSCUserService.m */; };
+		590C193F1EF0D65800320C7E /* CSCCardService.m in Sources */ = {isa = PBXBuildFile; fileRef = 590C192F1EF0D65800320C7E /* CSCCardService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +67,40 @@
 		590C18771EEFD15B00320C7E /* MyTestSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTestSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		590C187B1EEFD15B00320C7E /* MyTestSDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTestSDKUITests.m; sourceTree = "<group>"; };
 		590C187D1EEFD15B00320C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		590C18FE1EF0D65800320C7E /* CSCVirtualCardDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCVirtualCardDefines.h; sourceTree = "<group>"; };
+		590C18FF1EF0D65800320C7E /* CSCVirtualCardSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCVirtualCardSDK.h; sourceTree = "<group>"; };
+		590C19021EF0D65800320C7E /* CSCAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCAppInfo.h; sourceTree = "<group>"; };
+		590C19031EF0D65800320C7E /* CSCAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCAppInfo.m; sourceTree = "<group>"; };
+		590C19051EF0D65800320C7E /* CSCCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCCardInfo.h; sourceTree = "<group>"; };
+		590C19061EF0D65800320C7E /* CSCCardInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCCardInfo.m; sourceTree = "<group>"; };
+		590C19081EF0D65800320C7E /* CSCCardListInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCCardListInfo.h; sourceTree = "<group>"; };
+		590C19091EF0D65800320C7E /* CSCCardListInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCCardListInfo.m; sourceTree = "<group>"; };
+		590C190B1EF0D65800320C7E /* CSCDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCDeviceInfo.h; sourceTree = "<group>"; };
+		590C190C1EF0D65800320C7E /* CSCDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCDeviceInfo.m; sourceTree = "<group>"; };
+		590C190E1EF0D65800320C7E /* CSCIdInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCIdInfo.h; sourceTree = "<group>"; };
+		590C190F1EF0D65800320C7E /* CSCIdInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCIdInfo.m; sourceTree = "<group>"; };
+		590C19111EF0D65800320C7E /* CSCComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCComponent.h; sourceTree = "<group>"; };
+		590C19121EF0D65800320C7E /* CSCComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCComponent.m; sourceTree = "<group>"; };
+		590C19131EF0D65800320C7E /* CSCOrderInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCOrderInfo.h; sourceTree = "<group>"; };
+		590C19141EF0D65800320C7E /* CSCOrderInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCOrderInfo.m; sourceTree = "<group>"; };
+		590C19161EF0D65800320C7E /* CSCUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCUserInfo.h; sourceTree = "<group>"; };
+		590C19171EF0D65800320C7E /* CSCUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCUserInfo.m; sourceTree = "<group>"; };
+		590C191A1EF0D65800320C7E /* CSCBaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCBaseService.h; sourceTree = "<group>"; };
+		590C191B1EF0D65800320C7E /* CSCBaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCBaseService.m; sourceTree = "<group>"; };
+		590C191C1EF0D65800320C7E /* CSCHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCHttpManager.h; sourceTree = "<group>"; };
+		590C191D1EF0D65800320C7E /* CSCHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCHttpManager.m; sourceTree = "<group>"; };
+		590C191F1EF0D65800320C7E /* CSCCCKSControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCCCKSControls.h; sourceTree = "<group>"; };
+		590C19201EF0D65800320C7E /* CSCCCKSControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCCCKSControls.m; sourceTree = "<group>"; };
+		590C19221EF0D65800320C7E /* CSCCerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCCerService.h; sourceTree = "<group>"; };
+		590C19231EF0D65800320C7E /* CSCCerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCCerService.m; sourceTree = "<group>"; };
+		590C19251EF0D65800320C7E /* CSCMQTTService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCMQTTService.h; sourceTree = "<group>"; };
+		590C19261EF0D65800320C7E /* CSCMQTTService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCMQTTService.m; sourceTree = "<group>"; };
+		590C19281EF0D65800320C7E /* CSCSDKFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCSDKFactory.h; sourceTree = "<group>"; };
+		590C19291EF0D65800320C7E /* CSCSDKFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCSDKFactory.m; sourceTree = "<group>"; };
+		590C192B1EF0D65800320C7E /* CSCUserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCUserService.h; sourceTree = "<group>"; };
+		590C192C1EF0D65800320C7E /* CSCUserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCUserService.m; sourceTree = "<group>"; };
+		590C192E1EF0D65800320C7E /* CSCCardService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCCardService.h; sourceTree = "<group>"; };
+		590C192F1EF0D65800320C7E /* CSCCardService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCCardService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +151,7 @@
 		590C18551EEFD15B00320C7E /* MyTestSDK */ = {
 			isa = PBXGroup;
 			children = (
+				590C18FD1EF0D65800320C7E /* CSCSDK */,
 				590C18591EEFD15B00320C7E /* AppDelegate.h */,
 				590C185A1EEFD15B00320C7E /* AppDelegate.m */,
 				590C185C1EEFD15B00320C7E /* ViewController.h */,
@@ -138,6 +189,175 @@
 				590C187D1EEFD15B00320C7E /* Info.plist */,
 			);
 			path = MyTestSDKUITests;
+			sourceTree = "<group>";
+		};
+		590C18FD1EF0D65800320C7E /* CSCSDK */ = {
+			isa = PBXGroup;
+			children = (
+				590C18FE1EF0D65800320C7E /* CSCVirtualCardDefines.h */,
+				590C18FF1EF0D65800320C7E /* CSCVirtualCardSDK.h */,
+				590C19001EF0D65800320C7E /* Model */,
+				590C19181EF0D65800320C7E /* Service */,
+			);
+			path = CSCSDK;
+			sourceTree = "<group>";
+		};
+		590C19001EF0D65800320C7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				590C19011EF0D65800320C7E /* AppInfo */,
+				590C19041EF0D65800320C7E /* CardInfo */,
+				590C19071EF0D65800320C7E /* CardListInfo */,
+				590C190A1EF0D65800320C7E /* DeviceInfo */,
+				590C190D1EF0D65800320C7E /* IdInfo */,
+				590C19101EF0D65800320C7E /* OrderInfo */,
+				590C19151EF0D65800320C7E /* UserInfo */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		590C19011EF0D65800320C7E /* AppInfo */ = {
+			isa = PBXGroup;
+			children = (
+				590C19021EF0D65800320C7E /* CSCAppInfo.h */,
+				590C19031EF0D65800320C7E /* CSCAppInfo.m */,
+			);
+			path = AppInfo;
+			sourceTree = "<group>";
+		};
+		590C19041EF0D65800320C7E /* CardInfo */ = {
+			isa = PBXGroup;
+			children = (
+				590C19051EF0D65800320C7E /* CSCCardInfo.h */,
+				590C19061EF0D65800320C7E /* CSCCardInfo.m */,
+			);
+			path = CardInfo;
+			sourceTree = "<group>";
+		};
+		590C19071EF0D65800320C7E /* CardListInfo */ = {
+			isa = PBXGroup;
+			children = (
+				590C19081EF0D65800320C7E /* CSCCardListInfo.h */,
+				590C19091EF0D65800320C7E /* CSCCardListInfo.m */,
+			);
+			path = CardListInfo;
+			sourceTree = "<group>";
+		};
+		590C190A1EF0D65800320C7E /* DeviceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				590C190B1EF0D65800320C7E /* CSCDeviceInfo.h */,
+				590C190C1EF0D65800320C7E /* CSCDeviceInfo.m */,
+			);
+			path = DeviceInfo;
+			sourceTree = "<group>";
+		};
+		590C190D1EF0D65800320C7E /* IdInfo */ = {
+			isa = PBXGroup;
+			children = (
+				590C190E1EF0D65800320C7E /* CSCIdInfo.h */,
+				590C190F1EF0D65800320C7E /* CSCIdInfo.m */,
+			);
+			path = IdInfo;
+			sourceTree = "<group>";
+		};
+		590C19101EF0D65800320C7E /* OrderInfo */ = {
+			isa = PBXGroup;
+			children = (
+				590C19111EF0D65800320C7E /* CSCComponent.h */,
+				590C19121EF0D65800320C7E /* CSCComponent.m */,
+				590C19131EF0D65800320C7E /* CSCOrderInfo.h */,
+				590C19141EF0D65800320C7E /* CSCOrderInfo.m */,
+			);
+			path = OrderInfo;
+			sourceTree = "<group>";
+		};
+		590C19151EF0D65800320C7E /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				590C19161EF0D65800320C7E /* CSCUserInfo.h */,
+				590C19171EF0D65800320C7E /* CSCUserInfo.m */,
+			);
+			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		590C19181EF0D65800320C7E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				590C19191EF0D65800320C7E /* Base */,
+				590C191E1EF0D65800320C7E /* CCKS */,
+				590C19211EF0D65800320C7E /* CER */,
+				590C19241EF0D65800320C7E /* MQTT */,
+				590C19271EF0D65800320C7E /* SDKFactory */,
+				590C192A1EF0D65800320C7E /* User */,
+				590C192D1EF0D65800320C7E /* VC */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		590C19191EF0D65800320C7E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				590C191A1EF0D65800320C7E /* CSCBaseService.h */,
+				590C191B1EF0D65800320C7E /* CSCBaseService.m */,
+				590C191C1EF0D65800320C7E /* CSCHttpManager.h */,
+				590C191D1EF0D65800320C7E /* CSCHttpManager.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		590C191E1EF0D65800320C7E /* CCKS */ = {
+			isa = PBXGroup;
+			children = (
+				590C191F1EF0D65800320C7E /* CSCCCKSControls.h */,
+				590C19201EF0D65800320C7E /* CSCCCKSControls.m */,
+			);
+			path = CCKS;
+			sourceTree = "<group>";
+		};
+		590C19211EF0D65800320C7E /* CER */ = {
+			isa = PBXGroup;
+			children = (
+				590C19221EF0D65800320C7E /* CSCCerService.h */,
+				590C19231EF0D65800320C7E /* CSCCerService.m */,
+			);
+			path = CER;
+			sourceTree = "<group>";
+		};
+		590C19241EF0D65800320C7E /* MQTT */ = {
+			isa = PBXGroup;
+			children = (
+				590C19251EF0D65800320C7E /* CSCMQTTService.h */,
+				590C19261EF0D65800320C7E /* CSCMQTTService.m */,
+			);
+			path = MQTT;
+			sourceTree = "<group>";
+		};
+		590C19271EF0D65800320C7E /* SDKFactory */ = {
+			isa = PBXGroup;
+			children = (
+				590C19281EF0D65800320C7E /* CSCSDKFactory.h */,
+				590C19291EF0D65800320C7E /* CSCSDKFactory.m */,
+			);
+			path = SDKFactory;
+			sourceTree = "<group>";
+		};
+		590C192A1EF0D65800320C7E /* User */ = {
+			isa = PBXGroup;
+			children = (
+				590C192B1EF0D65800320C7E /* CSCUserService.h */,
+				590C192C1EF0D65800320C7E /* CSCUserService.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		590C192D1EF0D65800320C7E /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				590C192E1EF0D65800320C7E /* CSCCardService.h */,
+				590C192F1EF0D65800320C7E /* CSCCardService.m */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,8 +496,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				590C193E1EF0D65800320C7E /* CSCUserService.m in Sources */,
+				590C19341EF0D65800320C7E /* CSCIdInfo.m in Sources */,
+				590C19311EF0D65800320C7E /* CSCCardInfo.m in Sources */,
+				590C19361EF0D65800320C7E /* CSCOrderInfo.m in Sources */,
+				590C193F1EF0D65800320C7E /* CSCCardService.m in Sources */,
+				590C193A1EF0D65800320C7E /* CSCCCKSControls.m in Sources */,
 				590C185E1EEFD15B00320C7E /* ViewController.m in Sources */,
+				590C19381EF0D65800320C7E /* CSCBaseService.m in Sources */,
+				590C19301EF0D65800320C7E /* CSCAppInfo.m in Sources */,
+				590C19351EF0D65800320C7E /* CSCComponent.m in Sources */,
+				590C19391EF0D65800320C7E /* CSCHttpManager.m in Sources */,
+				590C19321EF0D65800320C7E /* CSCCardListInfo.m in Sources */,
+				590C19331EF0D65800320C7E /* CSCDeviceInfo.m in Sources */,
+				590C193C1EF0D65800320C7E /* CSCMQTTService.m in Sources */,
 				590C185B1EEFD15B00320C7E /* AppDelegate.m in Sources */,
+				590C193B1EF0D65800320C7E /* CSCCerService.m in Sources */,
+				590C193D1EF0D65800320C7E /* CSCSDKFactory.m in Sources */,
+				590C19371EF0D65800320C7E /* CSCUserInfo.m in Sources */,
 				590C18581EEFD15B00320C7E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +754,7 @@
 				590C18821EEFD15B00320C7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		590C18831EEFD15B00320C7E /* Build configuration list for PBXNativeTarget "MyTestSDKTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +763,7 @@
 				590C18851EEFD15B00320C7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		590C18861EEFD15B00320C7E /* Build configuration list for PBXNativeTarget "MyTestSDKUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +772,7 @@
 				590C18881EEFD15B00320C7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
